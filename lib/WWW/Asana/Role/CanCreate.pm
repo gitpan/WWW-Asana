@@ -3,7 +3,7 @@ BEGIN {
   $WWW::Asana::Role::CanCreate::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $WWW::Asana::Role::CanCreate::VERSION = '0.001';
+  $WWW::Asana::Role::CanCreate::VERSION = '0.002';
 }
 # ABSTRACT: Role for Asana classes which can be created
 
@@ -29,7 +29,7 @@ WWW::Asana::Role::CanCreate - Role for Asana classes which can be created
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 

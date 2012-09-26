@@ -3,7 +3,7 @@ BEGIN {
   $WWW::Asana::Response::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $WWW::Asana::Response::VERSION = '0.001';
+  $WWW::Asana::Response::VERSION = '0.002';
 }
 # ABSTRACT: Asana Response Class
 
@@ -170,7 +170,7 @@ WWW::Asana::Response - Asana Response Class
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 

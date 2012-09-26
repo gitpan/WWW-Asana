@@ -3,7 +3,7 @@ BEGIN {
   $WWW::Asana::Role::HasResponse::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $WWW::Asana::Role::HasResponse::VERSION = '0.001';
+  $WWW::Asana::Role::HasResponse::VERSION = '0.002';
 }
 # ABSTRACT: 
 
@@ -24,7 +24,7 @@ WWW::Asana::Role::HasResponse -
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 

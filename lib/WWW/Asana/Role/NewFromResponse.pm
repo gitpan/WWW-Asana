@@ -3,7 +3,7 @@ BEGIN {
   $WWW::Asana::Role::NewFromResponse::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $WWW::Asana::Role::NewFromResponse::VERSION = '0.001';
+  $WWW::Asana::Role::NewFromResponse::VERSION = '0.002';
 }
 # ABSTRACT: Role which implements new_from_response for Asana classes
 
@@ -82,7 +82,7 @@ WWW::Asana::Role::NewFromResponse - Role which implements new_from_response for 
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 METHODS
 

@@ -3,7 +3,7 @@ BEGIN {
   $WWW::Asana::Error::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $WWW::Asana::Error::VERSION = '0.001';
+  $WWW::Asana::Error::VERSION = '0.002';
 }
 # ABSTRACT: Asana Error Class
 
@@ -29,7 +29,7 @@ WWW::Asana::Error - Asana Error Class
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 

@@ -3,7 +3,7 @@ BEGIN {
   $WWW::Asana::Request::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $WWW::Asana::Request::VERSION = '0.001';
+  $WWW::Asana::Request::VERSION = '0.002';
 }
 # ABSTRACT: Asana Request Class
 
@@ -198,7 +198,7 @@ WWW::Asana::Request - Asana Request Class
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 

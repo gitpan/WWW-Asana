@@ -30,7 +30,7 @@ my %WriteMakefileArgs = (
     "MooX" => "0.101",
     "URI" => "1.60"
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }

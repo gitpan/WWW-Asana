@@ -3,7 +3,7 @@ BEGIN {
   $WWW::Asana::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $WWW::Asana::VERSION = '0.001';
+  $WWW::Asana::VERSION = '0.002';
 }
 # ABSTRACT: Client Class for accessing Asana API
 
@@ -194,7 +194,7 @@ WWW::Asana - Client Class for accessing Asana API
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 

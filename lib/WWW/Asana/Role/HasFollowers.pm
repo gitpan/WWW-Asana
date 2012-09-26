@@ -3,7 +3,7 @@ BEGIN {
   $WWW::Asana::Role::HasFollowers::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $WWW::Asana::Role::HasFollowers::VERSION = '0.001';
+  $WWW::Asana::Role::HasFollowers::VERSION = '0.002';
 }
 # ABSTRACT: Role for a class which has followers
 
@@ -28,7 +28,7 @@ WWW::Asana::Role::HasFollowers - Role for a class which has followers
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 
