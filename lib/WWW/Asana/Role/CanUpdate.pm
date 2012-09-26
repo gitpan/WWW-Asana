@@ -3,7 +3,7 @@ BEGIN {
   $WWW::Asana::Role::CanUpdate::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $WWW::Asana::Role::CanUpdate::VERSION = '0.002';
+  $WWW::Asana::Role::CanUpdate::VERSION = '0.003';
 }
 # ABSTRACT: Role for Asana classes which can be updated
 
@@ -28,7 +28,7 @@ WWW::Asana::Role::CanUpdate - Role for Asana classes which can be updated
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 AUTHOR
 

@@ -3,7 +3,7 @@ BEGIN {
   $WWW::Asana::Story::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $WWW::Asana::Story::VERSION = '0.002';
+  $WWW::Asana::Story::VERSION = '0.003';
 }
 # ABSTRACT: Asana Story Class
 
@@ -82,7 +82,7 @@ WWW::Asana::Story - Asana Story Class
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 AUTHOR
 

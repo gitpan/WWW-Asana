@@ -3,7 +3,7 @@ BEGIN {
   $WWW::Asana::Role::HasStories::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $WWW::Asana::Role::HasStories::VERSION = '0.002';
+  $WWW::Asana::Role::HasStories::VERSION = '0.003';
 }
 # ABSTRACT: Role for Asana classes which have stories
 
@@ -35,7 +35,7 @@ WWW::Asana::Role::HasStories - Role for Asana classes which have stories
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 METHODS
 

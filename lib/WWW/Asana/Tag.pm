@@ -3,7 +3,7 @@ BEGIN {
   $WWW::Asana::Tag::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $WWW::Asana::Tag::VERSION = '0.002';
+  $WWW::Asana::Tag::VERSION = '0.003';
 }
 # ABSTRACT: Asana Tag Class
 
@@ -80,7 +80,7 @@ WWW::Asana::Tag - Asana Tag Class
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 AUTHOR
 

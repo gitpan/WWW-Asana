@@ -3,7 +3,7 @@ BEGIN {
   $WWW::Asana::User::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $WWW::Asana::User::VERSION = '0.002';
+  $WWW::Asana::User::VERSION = '0.003';
 }
 # ABSTRACT: Asana User Class
 
@@ -56,7 +56,7 @@ WWW::Asana::User - Asana User Class
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 AUTHOR
 

@@ -3,7 +3,7 @@ BEGIN {
   $WWW::Asana::Role::HasClient::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $WWW::Asana::Role::HasClient::VERSION = '0.002';
+  $WWW::Asana::Role::HasClient::VERSION = '0.003';
 }
 # ABSTRACT: Role for a class which has a WWW::Asana client
 
@@ -30,7 +30,7 @@ WWW::Asana::Role::HasClient - Role for a class which has a WWW::Asana client
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 AUTHOR
 

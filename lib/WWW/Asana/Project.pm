@@ -3,7 +3,7 @@ BEGIN {
   $WWW::Asana::Project::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $WWW::Asana::Project::VERSION = '0.002';
+  $WWW::Asana::Project::VERSION = '0.003';
 }
 # ABSTRACT: Asana Project Class
 
@@ -94,7 +94,7 @@ WWW::Asana::Project - Asana Project Class
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 AUTHOR
 

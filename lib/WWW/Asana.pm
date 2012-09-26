@@ -3,7 +3,7 @@ BEGIN {
   $WWW::Asana::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $WWW::Asana::VERSION = '0.002';
+  $WWW::Asana::VERSION = '0.003';
 }
 # ABSTRACT: Client Class for accessing Asana API
 
@@ -185,6 +185,7 @@ sub user {
 
 1;
 
+
 __END__
 =pod
 
@@ -194,7 +195,7 @@ WWW::Asana - Client Class for accessing Asana API
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 SYNOPSIS
 
@@ -205,6 +206,36 @@ version 0.002
   my $me = $asana->me;
 
   print $me->email;
+
+  for (@{$asana->users}) {
+    print $_->name;
+  }
+
+  my $current_me = $me->reload;
+
+  my @workspaces = @{$me->workspaces};
+
+  my @tasks = @{$some_workspace->tasks($me)};
+  my @projects = @{$some_workspace->projects};
+  my @tags = @{$some_workspace->tags};
+
+  my $new_task = $some_workspace->create_task({
+    name => 'Test out WWW::Asana',
+    notes => 'really cool library, should test it out',
+    assignee => $me,
+  });
+
+  $new_task->completed(1);
+  $new_task->due_on($new_task->created_at + DateTime::Duration->new( days => 1 ));
+  my $new_version_of_task = $new_task->update;
+
+  $new_task->add_project($some_project);
+
+  $new_task->add_tag($some_tag);
+
+  my $story = $new_task->comment('I still didnt made it, DAMN!');
+
+  print $story->created_by->name;
 
 =head1 DESCRIPTION
 
@@ -285,6 +316,21 @@ users of the system.
 
 Makes a request to B</users/> together with the first argument given, which needs to be an Asana user id.
 It gives back a L<WWW::Asana::User> of the given user.
+
+=head1 SUPPORT
+
+IRC
+
+  Join #duckduckgo on irc.freenode.net. Highlight Getty for fast reaction :).
+
+Repository
+
+  http://github.com/Getty/p5-www-asana
+  Pull request and additional contributors are welcome
+
+Issue Tracker
+
+  http://github.com/Getty/p5-www-asana/issues
 
 =head1 AUTHOR
 

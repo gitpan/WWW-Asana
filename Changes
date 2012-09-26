@@ -3,8 +3,20 @@ Changes from 1738-12-13 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.002 at 2012-09-26 00:59:58 +0000
+version 0.003 at 2012-09-26 01:50:08 +0000
 ------------------------------------------
+
+  Change: c48ec190528f723821705e9e297ce2459bc6b111
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2012-09-26 03:49:57 +0000
+
+    Added SUPPORT Block in POD 
+
+  Change: 91897d2ccd6d4d58833c2c7c7efa3cced46dd165
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2012-09-26 03:48:56 +0000
+
+    More examples in SYNOPSIS 
 
   Change: 3dbf401fa731fcf2806d884c56e6cdd667646406
   Author: Torsten Raudssus <torsten@raudss.us>

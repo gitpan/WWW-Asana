@@ -3,7 +3,7 @@ BEGIN {
   $WWW::Asana::Role::CanReload::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $WWW::Asana::Role::CanReload::VERSION = '0.002';
+  $WWW::Asana::Role::CanReload::VERSION = '0.003';
 }
 # ABSTRACT: Role for Asana classes which can be reloaded
 
@@ -34,7 +34,7 @@ WWW::Asana::Role::CanReload - Role for Asana classes which can be reloaded
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 AUTHOR
 

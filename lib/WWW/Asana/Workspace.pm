@@ -3,7 +3,7 @@ BEGIN {
   $WWW::Asana::Workspace::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $WWW::Asana::Workspace::VERSION = '0.002';
+  $WWW::Asana::Workspace::VERSION = '0.003';
 }
 # ABSTRACT: Asana Workspace Class
 
@@ -93,7 +93,7 @@ WWW::Asana::Workspace - Asana Workspace Class
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 ATTRIBUTES
 

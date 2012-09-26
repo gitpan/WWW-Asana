@@ -3,7 +3,7 @@ BEGIN {
   $WWW::Asana::Task::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $WWW::Asana::Task::VERSION = '0.002';
+  $WWW::Asana::Task::VERSION = '0.003';
 }
 # ABSTRACT: Asana Task Class
 
@@ -158,7 +158,7 @@ WWW::Asana::Task - Asana Task Class
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 AUTHOR
 
